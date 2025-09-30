@@ -111,7 +111,7 @@ mount:
 
 .PHONY: pdk
 pdk: venv/manifest.txt
-	./venv/bin/ciel enable --pdk $(PDK)
+	./venv/bin/ciel enable --pdk $(PDK) 0fe599b2afb6708d281543108caf8310912f54af
 
 .PHONY: survey
 survey:
